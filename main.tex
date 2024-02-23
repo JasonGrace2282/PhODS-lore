@@ -1,0 +1,48 @@
+\documentclass[a4paper]{article}
+\usepackage{hyperref}
+\usepackage{lettrine}
+\usepackage{times}
+\usepackage{setspace}
+\doublespacing
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=blue
+}
+
+\title{PhODS Lore}
+\author{Resident Physics Noob}
+\date{Last Updated \today}
+
+\newcommand{\firstword}[2]{\lettrine{#1}{#2}}
+
+\begin{document}
+
+
+\maketitle
+\newpage
+
+\section*{Preface}
+PhODS, the greatest server of ISODN, has a long history. In fact as of writing, it has \textit{four years} of history that has gone unrecorded and been forgotten. This text attempts to unify it into a singular book of the funny, serious, and momentous occasions in PhODS since its inception.
+\begin{flushright}
+    Resident Physics Noob\\
+    \today
+\end{flushright}
+\newpage
+
+\tableofcontents
+\newpage
+
+
+\section{The Old Generation}
+\input{old}
+
+\section{The Next Generation}
+\input{next}
+
+\section{The New Generation}
+\input{new}
+
+\end{document}
